@@ -4,3 +4,6 @@
 [submodule "ShowMarks"]
 	path = ShowMarks
 	url = https://github.com/vim-scripts/ShowMarks.git
+[submodule "SearchComplete"]
+	path = SearchComplete
+	url = https://github.com/vim-scripts/SearchComplete.git
