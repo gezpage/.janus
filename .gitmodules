@@ -7,3 +7,12 @@
 [submodule "SearchComplete"]
 	path = SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "vimwiki"]
+	path = vimwiki
+	url = https://github.com/vim-scripts/vimwiki.git
+[submodule "taglist.vim"]
+	path = taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "PDV-revised"]
+	path = PDV-revised
+	url = https://github.com/vim-scripts/PDV-revised.git
