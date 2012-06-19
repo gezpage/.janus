@@ -1,5 +1,5 @@
 "colorscheme desert256
-colorscheme transparent
+"colorscheme transparent
 
 set shiftwidth=8                " use indents of 8 spaces
 set tabstop=8                   " an indentation every four columns
@@ -17,3 +17,11 @@ map <leader><leader>y :YRSearch<CR>
 
 " Fix ack-grep link
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+
+set background=dark
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+
+colorscheme solarized
