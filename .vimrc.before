@@ -1,0 +1,14 @@
+let mapleader = ","
+
+"colorscheme desert256
+"colorscheme transparent
+
+nnoremap <esc> :noh<return><esc>
+hi clear SpellBad
+hi SpellBad cterm=underline
+let g:Powerline_symbols = 'fancy'
+map <S-Enter> O<Esc>
+"map <CR> o<Esc>
+
+" This line fixes transparent background
+hi Normal ctermbg=NONE
