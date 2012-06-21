@@ -1,9 +1,6 @@
 [submodule "vim-powerline"]
 	path = vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
-[submodule "ShowMarks"]
-	path = ShowMarks
-	url = https://github.com/vim-scripts/ShowMarks.git
 [submodule "SearchComplete"]
 	path = SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
@@ -25,3 +22,6 @@
 [submodule "CSApprox"]
 	path = CSApprox
 	url = https://github.com/vim-scripts/CSApprox.git
+[submodule "vmark.vim--Visual-Bookmarking"]
+	path = vmark.vim--Visual-Bookmarking
+	url = https://github.com/vim-scripts/vmark.vim--Visual-Bookmarking.git
