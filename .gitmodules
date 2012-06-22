@@ -22,6 +22,6 @@
 [submodule "CSApprox"]
 	path = CSApprox
 	url = https://github.com/vim-scripts/CSApprox.git
-[submodule "vmark.vim--Visual-Bookmarking"]
-	path = vmark.vim--Visual-Bookmarking
-	url = https://github.com/vim-scripts/vmark.vim--Visual-Bookmarking.git
+[submodule "MatchTag"]
+	path = MatchTag
+	url = https://github.com/gezpage/MatchTag.git
