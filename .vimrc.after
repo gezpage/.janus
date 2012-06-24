@@ -25,3 +25,25 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 
 colorscheme solarized
+
+if has("gui_running")
+    if has("macunix")
+        set guifont=ProFont:h9
+    elseif has("win32")
+        set guifont=ProFontWindows:h11:b:cANSI,Lucida_Console:h11:b:cANSI
+    elseif has("x11")
+        set guifont=-jmk-neep-bold-r-normal--15-*-*-*-*-*-*-*
+    endif
+endif
+
+set cursorline
+
+" Fix home and end keybindings for screen, particularly on mac
+" - for some reason this fixes the arrow keys too. huh.
+map [F $
+imap [F $
+map [H g0
+imap [H g0
+
+" Prevent gundo from stealing F5 (remap DBGp)
+map <F5> :python debugger_run()<cr>
