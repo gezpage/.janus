@@ -25,3 +25,6 @@
 [submodule "MatchTag"]
 	path = MatchTag
 	url = https://github.com/gezpage/MatchTag.git
+[submodule "vim-xdebug"]
+	path = vim-xdebug
+	url = https://github.com/ludovicPelle/vim-xdebug.git
