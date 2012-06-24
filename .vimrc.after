@@ -1,16 +1,14 @@
-"colorscheme desert256
-"colorscheme transparent
-
+" Tab width = 8
 set shiftwidth=8                " use indents of 8 spaces
 set tabstop=8                   " an indentation every four columns
 set softtabstop=8               " let backspace delete indent
 
 " Map gundo to ,g
 map <leader>g :GundoToggle<CR>
+
 " Map nerdtree to ctrl+e
 map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
-" Map ctrl p
-"map <C-p> :CtrlP<CR>
+
 " Map  yankring show to ,y yankring search to ,,y
 map <leader>y :YRShow<CR>
 map <leader><leader>y :YRSearch<CR>
@@ -18,6 +16,7 @@ map <leader><leader>y :YRSearch<CR>
 " Fix ack-grep link
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
+" Colorscheme stuff
 set background=dark
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
@@ -25,7 +24,10 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 
 colorscheme solarized
+"colorscheme desert256
+"colorscheme transparent
 
+" Gui font, profont
 if has("gui_running")
     if has("macunix")
         set guifont=ProFont:h9
@@ -36,6 +38,7 @@ if has("gui_running")
     endif
 endif
 
+" Show horizontal cursor
 set cursorline
 
 " Fix home and end keybindings for screen, particularly on mac
@@ -47,3 +50,6 @@ imap [H g0
 
 " Prevent gundo from stealing F5 (remap DBGp)
 map <F5> :python debugger_run()<cr>
+
+" Enable neocomplcache
+let g:neocomplcache_enable_at_startup = 1 

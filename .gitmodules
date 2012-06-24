@@ -13,9 +13,6 @@
 [submodule "PDV-revised"]
 	path = PDV-revised
 	url = https://github.com/vim-scripts/PDV-revised.git
-[submodule "YankRing.vim"]
-	path = YankRing.vim
-	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "ack.vim"]
 	path = ack.vim
 	url = https://github.com/mileszs/ack.vim.git
@@ -46,3 +43,6 @@
 [submodule "neocomplcache"]
 	path = neocomplcache
 	url = https://github.com/Shougo/neocomplcache.git
+[submodule "YankRing.vim"]
+	path = YankRing.vim
+	url = https://github.com/vim-scripts/YankRing.vim.git
