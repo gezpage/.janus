@@ -34,3 +34,6 @@
 [submodule "vim-conque"]
 	path = vim-conque
 	url = https://github.com/rson/vim-conque.git
+[submodule "MatchTag"]
+	path = MatchTag
+	url = https://github.com/gezpage/MatchTag.git
