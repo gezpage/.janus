@@ -16,6 +16,10 @@ map <leader><leader>y :YRSearch<CR>
 " Fix ack-grep link
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
+" Use tab to cycle tabs
+:map <Tab> gt
+:map <S-Tab> gT
+
 " Colorscheme stuff
 set background=dark
 let g:solarized_termtrans=1
