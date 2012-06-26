@@ -31,9 +31,6 @@
 [submodule "MatchTag"]
 	path = MatchTag
 	url = https://github.com/gezpage/MatchTag.git
-[submodule "vim-dbgp"]
-	path = vim-dbgp
-	url = https://github.com/jsoriano/vim-dbgp.git
 [submodule "PIV"]
 	path = PIV
 	url = https://github.com/spf13/PIV.git
@@ -46,3 +43,18 @@
 [submodule "YankRing.vim"]
 	path = YankRing.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "vim-xdebug"]
+	path = vim-xdebug
+	url = https://github.com/joonty/vim-xdebug.git
+[submodule "vim-phpunitqf"]
+	path = vim-phpunitqf
+	url = https://github.com/joonty/vim-phpunitqf.git
+[submodule "vim-taggatron"]
+	path = vim-taggatron
+	url = https://github.com/joonty/vim-taggatron.git
+[submodule "vim-sauce"]
+	path = vim-sauce
+	url = https://github.com/joonty/vim-sauce.git
+[submodule "vim-phpqa"]
+	path = vim-phpqa
+	url = https://github.com/joonty/vim-phpqa.git
