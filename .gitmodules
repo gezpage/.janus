@@ -13,15 +13,36 @@
 [submodule "PDV-revised"]
 	path = PDV-revised
 	url = https://github.com/vim-scripts/PDV-revised.git
-[submodule "YankRing.vim"]
-	path = YankRing.vim
-	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "ack.vim"]
 	path = ack.vim
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "CSApprox"]
 	path = CSApprox
 	url = https://github.com/vim-scripts/CSApprox.git
+[submodule "gitv"]
+	path = gitv
+	url = https://github.com/gregsexton/gitv.git
+[submodule "VimCalc"]
+	path = VimCalc
+	url = https://github.com/gregsexton/VimCalc.git
+[submodule "vim-conque"]
+	path = vim-conque
+	url = https://github.com/rson/vim-conque.git
 [submodule "MatchTag"]
 	path = MatchTag
 	url = https://github.com/gezpage/MatchTag.git
+[submodule "vim-dbgp"]
+	path = vim-dbgp
+	url = https://github.com/jsoriano/vim-dbgp.git
+[submodule "PIV"]
+	path = PIV
+	url = https://github.com/spf13/PIV.git
+[submodule "supertab"]
+	path = supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "neocomplcache"]
+	path = neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule "YankRing.vim"]
+	path = YankRing.vim
+	url = https://github.com/vim-scripts/YankRing.vim.git
