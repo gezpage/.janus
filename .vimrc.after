@@ -53,3 +53,6 @@ map <F5> :python debugger_run()<cr>
 
 " Enable neocomplcache
 let g:neocomplcache_enable_at_startup = 1 
+
+" always switch to the current file directory.
+autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
