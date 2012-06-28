@@ -34,9 +34,6 @@
 [submodule "PIV"]
 	path = PIV
 	url = https://github.com/spf13/PIV.git
-[submodule "supertab"]
-	path = supertab
-	url = https://github.com/ervandew/supertab.git
 [submodule "neocomplcache"]
 	path = neocomplcache
 	url = https://github.com/Shougo/neocomplcache.git
