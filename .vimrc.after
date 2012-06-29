@@ -7,7 +7,7 @@ set softtabstop=8               " let backspace delete indent
 map <leader>g :GundoToggle<CR>
 
 " Map nerdtree to ctrl+e
-map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+"map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 
 " Map  yankring show to ,y yankring search to ,,y
 map <leader>y :YRShow<CR>
