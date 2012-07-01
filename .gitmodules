@@ -67,3 +67,6 @@
 [submodule "jsoncodecs.vim"]
 	path = jsoncodecs.vim
 	url = https://github.com/michalliu/jsoncodecs.vim.git
+[submodule "vim-sparkup"]
+	path = vim-sparkup
+	url = https://github.com/tristen/vim-sparkup.git

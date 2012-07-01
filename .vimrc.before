@@ -1,8 +1,5 @@
 let mapleader = ","
 
-"colorscheme desert256
-"colorscheme transparent
-
 nnoremap <esc> :noh<return><esc>
 hi clear SpellBad
 hi SpellBad cterm=underline
