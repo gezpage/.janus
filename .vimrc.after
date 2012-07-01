@@ -13,6 +13,7 @@ map <leader>g :GundoToggle<CR>
 map <leader>y :YRShow<CR>
 map <leader><leader>y :YRSearch<CR>
 
+
 " Fix ack-grep link
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
@@ -73,3 +74,14 @@ autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
 
 " VimWiki
 let g:vimwiki_list = [{'path': '~/Dropbox/Wiki/', 'path_html': '~/Dropbox/WikiHTML/'}]
+
+" Function to strip trailing whitespace
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+
+" Auto strip trailing whitespace on file save
+autocmd FileType c,cpp,java,php,ruby,python,html,smarty,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
