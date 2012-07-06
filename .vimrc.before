@@ -1,10 +1,18 @@
+" <Leader> mapped to comma
 let mapleader = ","
 
+" Hit ESC or CTRL C to remove highlights
 nnoremap <esc> :noh<return><esc>
+nnoremap <C-c> :noh<return><esc>
+
+" Hide ridiculous bad spelling highlights
 hi clear SpellBad
 hi SpellBad cterm=underline
+
+" Powerline hacked font goodness
 let g:Powerline_symbols = 'fancy'
-map <S-Enter> O<Esc>
+
+"map <S-Enter> O<Esc>
 "map <CR> o<Esc>
 
 " This line fixes transparent background
