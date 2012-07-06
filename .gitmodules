@@ -37,9 +37,6 @@
 [submodule "neocomplcache"]
 	path = neocomplcache
 	url = https://github.com/Shougo/neocomplcache.git
-[submodule "YankRing.vim"]
-	path = YankRing.vim
-	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "vim-phpunitqf"]
 	path = vim-phpunitqf
 	url = https://github.com/joonty/vim-phpunitqf.git
@@ -76,3 +73,6 @@
 [submodule "lusty"]
 	path = lusty
 	url = https://github.com/sjbach/lusty.git
+[submodule "vim-yankstack"]
+	path = vim-yankstack
+	url = https://github.com/maxbrunsfeld/vim-yankstack.git

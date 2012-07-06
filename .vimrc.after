@@ -6,16 +6,18 @@ set softtabstop=8               " let backspace delete indent
 " Map gundo to ,g
 map <leader>g :GundoToggle<CR>
 
-" Map nerdtree to ctrl+e
-"map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+" Map NERDTreeFind to ctrl+e
 map <leader>e :NERDTreeFind<CR>
+"map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 
 " Map  yankring show to ,y yankring search to ,,y
-map <leader>y :YRShow<CR>
-map <leader><leader>y :YRSearch<CR>
+"map <leader>y :YRShow<CR>
+"map <leader><leader>y :YRSearch<CR>
+" Replaced yankring with yankstack, override ctrlp mapping:
+nmap <C-p> <Plug>yankstack_substitute_older_paste
+nmap <C-P> <Plug>yankstack_substitute_newer_paste
 
-
-" Fix ack-grep link
+" Fix ack-grep link (ubuntu)
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 
 " Use tab to cycle tabs
@@ -85,4 +87,4 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 " Auto strip trailing whitespace on file save
-autocmd FileType c,cpp,java,php,ruby,python,html,smarty,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+autocmd FileType css,c,cpp,java,php,ruby,python,html,smarty,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
