@@ -73,3 +73,6 @@
 [submodule "vim-signature"]
 	path = vim-signature
 	url = https://github.com/kshenoy/vim-signature.git
+[submodule "lusty"]
+	path = lusty
+	url = https://github.com/sjbach/lusty.git

@@ -9,3 +9,6 @@ map <S-Enter> O<Esc>
 
 " This line fixes transparent background
 hi Normal ctermbg=NONE
+
+" Enable hidden mode for lustyjuggler
+:set hidden
