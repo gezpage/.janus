@@ -49,24 +49,6 @@
 [submodule "vim-dbgp"]
 	path = vim-dbgp
 	url = https://github.com/jsoriano/vim-dbgp.git
-[submodule "splitjoin.vim"]
-	path = splitjoin.vim
-	url = https://github.com/vim-scripts/splitjoin.vim.git
-[submodule "buffers_search_and_replace"]
-	path = buffers_search_and_replace
-	url = https://github.com/vim-scripts/buffers_search_and_replace.git
-[submodule "sourcebeautify.vim"]
-	path = sourcebeautify.vim
-	url = https://github.com/vim-scripts/sourcebeautify.vim.git
-[submodule "jsruntime.vim"]
-	path = jsruntime.vim
-	url = https://github.com/michalliu/jsruntime.vim.git
-[submodule "jsoncodecs.vim"]
-	path = jsoncodecs.vim
-	url = https://github.com/michalliu/jsoncodecs.vim.git
-[submodule "vim-sparkup"]
-	path = vim-sparkup
-	url = https://github.com/tristen/vim-sparkup.git
 [submodule "vim-signature"]
 	path = vim-signature
 	url = https://github.com/kshenoy/vim-signature.git
