@@ -88,3 +88,7 @@ endfun
 
 " Auto strip trailing whitespace on file save
 autocmd FileType css,c,cpp,java,php,ruby,python,html,smarty,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+
+" Linemotion bindings
+nmap <c-l> :Lright<cr>
+nmap <c-h> :Lleft<cr>
