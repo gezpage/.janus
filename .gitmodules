@@ -79,3 +79,6 @@
 [submodule "vim-linemotion"]
 	path = vim-linemotion
 	url = https://github.com/handsomecheung/vim-linemotion.git
+[submodule "tagbar-phpctags"]
+	path = tagbar-phpctags
+	url = https://github.com/techlivezheng/tagbar-phpctags.git

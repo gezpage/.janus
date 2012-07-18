@@ -15,7 +15,7 @@ map <leader>e :NERDTreeFind<CR>
 "map <leader><leader>y :YRSearch<CR>
 " Replaced yankring with yankstack, override ctrlp mapping:
 nmap <C-p> <Plug>yankstack_substitute_older_paste
-nmap <C-P> <Plug>yankstack_substitute_newer_paste
+nmap <C-n> <Plug>yankstack_substitute_newer_paste
 
 " Fix ack-grep link (ubuntu)
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
@@ -92,3 +92,12 @@ autocmd FileType css,c,cpp,java,php,ruby,python,html,smarty,javascript autocmd B
 " Linemotion bindings
 nmap <c-l> :Lright<cr>
 nmap <c-h> :Lleft<cr>
+
+" Gitv bindings
+nmap <leader>gv :Gitv --all<cr>
+nmap <leader>gV :Gitv! --all<cr>
+vmap <leader>gV :Gitv! --all<cr>
+
+" Trying this out recommended in the gitv help for quicker plugin screen
+" redrawing
+set lazyredraw

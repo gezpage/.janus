@@ -20,3 +20,6 @@ hi Normal ctermbg=NONE
 
 " Enable hidden mode for lustyjuggler
 :set hidden
+
+" tagbar-phpctags
+let g:tagbar_phpctags_bin='/home/gez/Dev/git/phpctags/phpctags'
