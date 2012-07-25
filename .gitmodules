@@ -82,3 +82,9 @@
 [submodule "tagbar-phpctags"]
 	path = tagbar-phpctags
 	url = https://github.com/techlivezheng/tagbar-phpctags.git
+[submodule "vim-mysqlrun"]
+	path = vim-mysqlrun
+	url = https://github.com/potix2/vim-mysqlrun.git
+[submodule "smarty.vim"]
+	path = smarty.vim
+	url = https://github.com/vim-scripts/smarty.vim.git

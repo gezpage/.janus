@@ -101,3 +101,9 @@ vmap <leader>gV :Gitv! --all<cr>
 " Trying this out recommended in the gitv help for quicker plugin screen
 " redrawing
 set lazyredraw
+
+" Default .sql files to mysql filetype for syntax highlighting
+if has("autocmd")
+        autocmd BufRead *.sql set filetype=mysql
+endif
+
