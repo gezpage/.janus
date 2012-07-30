@@ -85,6 +85,6 @@
 [submodule "vim-mysqlrun"]
 	path = vim-mysqlrun
 	url = https://github.com/potix2/vim-mysqlrun.git
-[submodule "smarty.vim"]
-	path = smarty.vim
-	url = https://github.com/vim-scripts/smarty.vim.git
+[submodule "vim-speeddating"]
+	path = vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
